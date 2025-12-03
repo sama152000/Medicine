@@ -116,6 +116,7 @@ export const routes: Routes = [
             { path: 'detail/:id', component: NewsDetailComponent }
           ]
         },
+        { path: 'full', component: HomeComponent },
         { path: '**', redirectTo: '' }
 
       ]
