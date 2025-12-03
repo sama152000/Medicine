@@ -13,22 +13,19 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
-            "tsConfig": "tsconfig.app.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
-            "styles": [
-              
-              "src/styles.css"
-            ]
-          },
+  "browser": "src/main.ts",
+  "polyfills": ["zone.js"],
+  "tsConfig": "tsconfig.app.json",
+  "assets": [
+    {
+      "glob": "**/*",
+      "input": "public"
+    }
+  ],
+  "styles": ["src/styles.css"],
+  "outputPath": "dist/medicineFaculty",
+  "baseHref": "/"
+},
           "configurations": {
             "production": {
               "budgets": [
