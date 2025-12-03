@@ -5,9 +5,6 @@
    🎨 Global Styles for Angular Medical Interface
    =============================================== */
 
-/* ===============================================
-   🎯 CSS Custom Properties (Variables)
-   =============================================== */
 :root {
   /* Primary Luxor Medical Colors */
   --medicine-primary-red: #B71C1C;
